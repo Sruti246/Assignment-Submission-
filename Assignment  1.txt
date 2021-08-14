@@ -1,0 +1,19 @@
+1) Differnce between Interpreter and Compiler.
+...............................................
+
+a)An interpreter translates program line-by-line.
+  A compiler translates the entire program together.
+
+b)Interpreter does not produce an intermediate machine code,but compiler does.
+
+c)Execution process of interpreter slower whereas,execution process of the compiler is faster.
+
+d)Interpreter takes less compile-time but compiler takes more time.
+
+e)Interpreter compiles the program untill an error is found.
+  Compiler shows all the error at the end of compilation.
+
+f)Python,PHP use an interpreter.
+  Java,C++ and C use a compiler.
+
+
