@@ -1,0 +1,30 @@
+import java.util.Scanner;
+class Student
+{
+    String name;
+    int roll;
+    float marks;
+    Scanner sc=new Scanner(System.in);
+    Void input()
+    {
+        System.out.println("Enter Name:");
+        name=sc.nextLine();
+        System.out.println("Enter Roll No:");
+        roll=sc.nextInt();
+        System.out.println("Enter marks:");
+        marks=sc.nextFloat();
+    }
+    void display()
+    {
+        System.out.println("Name= "+name+"Roll No= "+roll+"Marks= "+marks);
+    }
+}
+class DriverStudent
+{
+    public static void main(String[] args)
+    {
+        Student std=new Student();
+        std.input();
+        std.display();
+    }
+}
